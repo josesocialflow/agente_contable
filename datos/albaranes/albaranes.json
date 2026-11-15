@@ -1,0 +1,478 @@
+{
+  "version": 1,
+  "descripcion": "Albaranes de entrega simulados: sustituyen a la tabla de albaranes del ERP para el agente de cuentas por pagar.",
+  "albaranes": [
+    {
+      "numero": "ALB-FAC-2026-021",
+      "fecha": "2026-09-25",
+      "proveedor": {
+        "nombre": "Suministros de Oficina Global S.A.",
+        "cif": "A87654321"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Tóner láser negro HP",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-MD-2026-022",
+      "fecha": "2026-10-12",
+      "proveedor": {
+        "nombre": "Consultoría y Marketing Digital S.L.",
+        "cif": "B98765432"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Copywriting para landing pages",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Gestión de campañas SEM y LinkedIn Ads",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Informe mensual de analítica y KPIs",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Auditoría SEO técnico de la web corporativa",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-LIM-2026-023",
+      "fecha": "2026-10-24",
+      "proveedor": {
+        "nombre": "Limpiezas y Mantenimiento Integral S.L.",
+        "cif": "B11223344"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Mantenimiento de zonas ajardinadas",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Desinfección integral de instalaciones",
+          "cantidad": 2
+        },
+        {
+          "concepto": "Suministro de consumibles de limpieza",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Limpieza de oficinas (hora de servicio)",
+          "cantidad": 13
+        }
+      ]
+    },
+    {
+      "numero": "ALB-CRB-2026-024",
+      "fecha": "2026-10-22",
+      "proveedor": {
+        "nombre": "Comunicaciones y Redes Biz S.L.",
+        "cif": "B99887766"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Centralita virtual 12 extensiones",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Centralita virtual 25 extensiones",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-IMP-2026-025",
+      "fecha": "2026-09-18",
+      "proveedor": {
+        "nombre": "Servicios de Imprenta y Publicidad S.A.",
+        "cif": "A66778899"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Folletos A4 cuatricromía (millar)",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Carteles plastificados",
+          "cantidad": 17
+        },
+        {
+          "concepto": "Vinilos decorativos para flota",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Diseño gráfico de campaña",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-MOM-2026-026",
+      "fecha": "2026-10-07",
+      "proveedor": {
+        "nombre": "Mobiliario de Oficina Moderno S.L.",
+        "cif": "B44556677"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Cajonera rodante",
+          "cantidad": 2
+        }
+      ]
+    },
+    {
+      "numero": "ALB-EFN-2026-027",
+      "fecha": "2026-10-26",
+      "proveedor": {
+        "nombre": "Electricidad y Fontanería del Norte S.A.",
+        "cif": "A33445566"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Mano de obra de mantenimiento (hora)",
+          "cantidad": 4
+        }
+      ]
+    },
+    {
+      "numero": "ALB-LAE-2026-028",
+      "fecha": "2026-10-20",
+      "proveedor": {
+        "nombre": "Logística y Almacenaje Express S.L.",
+        "cif": "B55667788"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Transporte nacional de mercancía",
+          "cantidad": 8
+        },
+        {
+          "concepto": "Picking y preparación de pedidos",
+          "cantidad": 336
+        },
+        {
+          "concepto": "Almacenaje de palet europeo (30 días)",
+          "cantidad": 92
+        }
+      ]
+    },
+    {
+      "numero": "ALB-TEC-2026-029",
+      "fecha": "2026-10-01",
+      "proveedor": {
+        "nombre": "Tecnología Avanzada S.L.",
+        "cif": "B12345678"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Soporte técnico 24/7 y copias de seguridad",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Licencia ERP Cloud (usuario/mes)",
+          "cantidad": 7
+        }
+      ]
+    },
+    {
+      "numero": "ALB-SPA-2026-030",
+      "fecha": "2026-10-12",
+      "proveedor": {
+        "nombre": "Seguridad y Protección Activa S.A.",
+        "cif": "A22334455"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Vigilancia y control de accesos (hora)",
+          "cantidad": 15
+        },
+        {
+          "concepto": "Mantenimiento de sistema de alarmas",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-FAC-2026-031",
+      "fecha": "2026-10-27",
+      "proveedor": {
+        "nombre": "Suministros de Oficina Global S.A.",
+        "cif": "A87654321"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Archivadores palanca lomo ancho",
+          "cantidad": 9
+        },
+        {
+          "concepto": "Papel A3 80 g (caja de 5 paquetes)",
+          "cantidad": 11
+        }
+      ]
+    },
+    {
+      "numero": "ALB-MD-2026-032",
+      "fecha": "2026-10-25",
+      "proveedor": {
+        "nombre": "Consultoría y Marketing Digital S.L.",
+        "cif": "B98765432"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Copywriting para landing pages",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Gestión de campañas SEM y LinkedIn Ads",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Auditoría SEO técnico de la web corporativa",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-LIM-2026-033",
+      "fecha": "2026-09-21",
+      "proveedor": {
+        "nombre": "Limpiezas y Mantenimiento Integral S.L.",
+        "cif": "B11223344"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Desinfección integral de instalaciones",
+          "cantidad": 8
+        }
+      ]
+    },
+    {
+      "numero": "ALB-CRB-2026-034",
+      "fecha": "2026-10-20",
+      "proveedor": {
+        "nombre": "Comunicaciones y Redes Biz S.L.",
+        "cif": "B99887766"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Fibra simétrica 1 Gbps con IP fija",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-IMP-2026-035",
+      "fecha": "2026-11-12",
+      "proveedor": {
+        "nombre": "Servicios de Imprenta y Publicidad S.A.",
+        "cif": "A66778899"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Folletos A4 cuatricromía (millar)",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-MOM-2026-036",
+      "fecha": "2026-10-25",
+      "proveedor": {
+        "nombre": "Mobiliario de Oficina Moderno S.L.",
+        "cif": "B44556677"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Cajonera rodante",
+          "cantidad": 2
+        },
+        {
+          "concepto": "Armario metálico dos puertas",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Silla ergonómica con reposabrazos",
+          "cantidad": 1
+        }
+      ]
+    },
+    {
+      "numero": "ALB-EFN-2026-037",
+      "fecha": "2026-09-26",
+      "proveedor": {
+        "nombre": "Electricidad y Fontanería del Norte S.A.",
+        "cif": "A33445566"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Revisión y certificación del cuadro eléctrico",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Sustitución de luminarias LED",
+          "cantidad": 3
+        }
+      ]
+    },
+    {
+      "numero": "ALB-LAE-2026-038",
+      "fecha": "2026-10-06",
+      "proveedor": {
+        "nombre": "Logística y Almacenaje Express S.L.",
+        "cif": "B55667788"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Picking y preparación de pedidos",
+          "cantidad": 27
+        },
+        {
+          "concepto": "Almacenaje de palet europeo (30 días)",
+          "cantidad": 5
+        }
+      ]
+    },
+    {
+      "numero": "ALB-TEC-2026-039",
+      "fecha": "2026-11-09",
+      "proveedor": {
+        "nombre": "Tecnología Avanzada S.L.",
+        "cif": "B12345678"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Soporte técnico 24/7 y copias de seguridad",
+          "cantidad": 4
+        }
+      ]
+    },
+    {
+      "numero": "ALB-SPA-2026-040",
+      "fecha": "2026-11-10",
+      "proveedor": {
+        "nombre": "Seguridad y Protección Activa S.A.",
+        "cif": "A22334455"
+      },
+      "destinatario": {
+        "nombre": "Logística Ibérica S.L.",
+        "cif": "B80000000"
+      },
+      "direccion_entrega": "Pol. Ind. Los Olivos, C/ Principal 8, 28000 Madrid",
+      "lineas": [
+        {
+          "concepto": "Mantenimiento de sistema de alarmas",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Revisión de extintores y BIEs",
+          "cantidad": 1
+        },
+        {
+          "concepto": "Vigilancia y control de accesos (hora)",
+          "cantidad": 14
+        }
+      ]
+    }
+  ]
+}

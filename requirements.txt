@@ -1,0 +1,25 @@
+# Dependencias de ejecución del agente de cuentas por pagar.
+#
+# Versiones fijadas: son las que se han probado con el lote de demostración de
+# 20 facturas. Instalación:
+#
+#     python -m pip install -r requirements.txt
+#
+# Las herramientas de desarrollo (pytest y ruff) están en requirements-dev.txt.
+
+# --- Modelo de lenguaje y grafo ---
+langchain-core==1.4.7
+langchain-openai==1.3.2
+langgraph==1.2.5
+# El checkpointer SQLite que usa el worker vive en este paquete aparte.
+langgraph-checkpoint-sqlite==3.1.3
+
+# --- Panel ---
+streamlit==1.57.0
+
+# --- Configuración, lectura de PDF y avisos ---
+httpx==0.28.1
+pydantic==2.14.1
+pydantic-settings==2.16.0
+pypdf==6.13.2
+python-dotenv==1.2.4

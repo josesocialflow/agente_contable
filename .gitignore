@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------------------
+# Secretos
+# ---------------------------------------------------------------------------
+# El .env real lleva la clave de OpenAI y el token de Telegram: nunca al repo.
+# La plantilla pública es .env.example (esa sí se sube).
+.env
+.env.local
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Entorno virtual
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---------------------------------------------------------------------------
+# Estado generado por el agente
+# ---------------------------------------------------------------------------
+# Todo esto lo vuelve a crear el worker y lo borra `python reset.py`.
+# Los datos fuente (datos/fras, albaranes y maestro) sí se versionan: son el
+# "ERP" simulado y sin ellos la demo no arranca.
+datos/*.db
+datos/*.db-*
+datos/*.sqlite
+datos/*.sqlite-*
+datos/registro_facturas.json
+datos/pagos.json
+datos/procesados/
+
+# Volcados de memoria: el entorno dio algún segfault durante el desarrollo.
+# Ojo, `core` a secas ignoraría la carpeta del código; por eso el patrón lleva
+# el número de proceso.
+core.[0-9]*
+
+# ---------------------------------------------------------------------------
+# Documentos de trabajo que no se publican
+# ---------------------------------------------------------------------------
+# Aquí viven el .odt del caso de estudio y el guion interno de la demo.
+# Se usa `escenario/*` (y no `escenario/`) para poder hacer excepciones:
+# con la barra final, git ni siquiera entra en la carpeta.
+escenario/*
+
+# Si algún día quieres publicar el diagrama de proceso o el manual de arranque,
+# descomenta estas dos líneas:
+# !escenario/proceso_de_facturas_bpmn.bpmn
+# !escenario/puesta_en_marcha.md
+
+# ---------------------------------------------------------------------------
+# Ruido del sistema
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db

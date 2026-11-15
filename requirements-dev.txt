@@ -1,0 +1,9 @@
+# Herramientas de desarrollo: no hacen falta para ejecutar la demo, solo para
+# pasar las pruebas y el linter.
+#
+#     python -m pip install -r requirements-dev.txt
+
+-r requirements.txt
+
+pytest==9.2.0
+ruff==0.16.7
